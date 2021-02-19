@@ -1,3 +1,30 @@
 body {
     padding-top: 5rem;
 }
+
+main{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.sub_btn{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.req{
+    color: red;
+    font-weight:bold;
+}
+
+label{
+    font-weight:bold;
+}
+
+.flashes{
+    color:rgb(50, 158, 29);
+    font-weight: bold;
+}
