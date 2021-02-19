@@ -12,20 +12,20 @@
             <p>Please enter your full name</p>
             {{ form.name(class="form-control")}}
         </div>
-
+        <br>
         <div>
             {{ form.email.label }} <span class='req'>(Required)</span>
             <p>Please enter your e-mail address</p>
             {{ form.email(class="form-control",placeholder="jdoe@example.com") }}
-        </div
-
+        </div>
+        <br>
         <div>
             {{ form.subject.label }} <span class='req'>(Required)</span>
             <p>Please enter the subject for your message.</p>
             {{ form.subject(class="form-control")}}
         </div>
-
-        <div class="container">
+        <br>
+        <div>
             {{ form.message.label }} <span class='req'>(Required)</span>
             <p>Please enter the subject for your message.</p>
             {{ form.message(class="form-control")}}
